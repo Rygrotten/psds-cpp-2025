@@ -1,6 +1,6 @@
 #include <cmath>
 
-constexpr double operator "" __ft_to_m(long double value) {
+constexpr double operator "" _ft_to_m(long double value) {
     return static_cast<double>(value * 0.3048);
 }
 
@@ -48,4 +48,5 @@ constexpr double operator "" _cm_to_in(long double value) {
     return static_cast<double>(value / 30.48);
 
 }
+
 
