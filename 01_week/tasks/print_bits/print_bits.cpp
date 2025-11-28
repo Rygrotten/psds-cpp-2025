@@ -12,7 +12,7 @@ void PrintBits(long long value, size_t bytes) {
     
     for (size_t i = 0; i < total_bits; ++i) {
         size_t bit_pos = total_bits - 1 - i;
-        unsigned long long mask = 1ULL << bit_position;
+        unsigned long long mask = 1ULL << bit_pos;
         
         if (unsigned_value & mask) {
             std::cout << '1';
